@@ -33,6 +33,22 @@ html {
 }
 
 /* Custom Styles */
+main {
+	background: #FFB03B;
+	color: #1E1E1E;
+}
+
+.icons-social a {
+	color: #1E1E1E;
+}
+
+.icons-social a svg path{
+	fill: #1E1E1E;
+}
+
+body{
+	font-family: 'Reem Kufi', sans-serif;
+}
 
 main {
 	display: flex;
@@ -52,7 +68,7 @@ main > .intro {
 main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .icons-social i {
@@ -69,3 +85,48 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+.navbar {
+	background-color: #FFB03B;
+}
+section {
+	background: #FFF0A5;
+	color: #1E1E1E;
+}
+
+#skills {
+	font-size: 2.5em;
+	font-weight: 400;
+	padding-top: 30px;
+}
+.skillset {
+	font-size: 5em;
+	max-width: 65%;;
+}
+
+.logo {
+	width: 1em;
+	padding: 0;
+}
+
+.html {
+	width: 2.4em;
+}
+
+.express {
+	width: 1.5em;
+}
+.skillset img{
+transition: 1s ease;
+}
+
+.skillset img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+/*
+.logo:hover {
+	filter: grayscale(100%);
+}*/
