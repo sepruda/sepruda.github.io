@@ -48,6 +48,8 @@ main {
 
 body{
 	font-family: 'Reem Kufi', sans-serif;
+	background-color: #468966;
+	position: relative;
 }
 
 main {
@@ -86,19 +88,17 @@ main > .tagline {
 	height: 2.65rem;
 }
 
-.navbar {
-	background-color: #468966;
-}
-section.skills{
-	background: #FFF0A5;
-	color: #1E1E1E;
-}
-
-#skills, #portfolio {
+.section-head {
 	font-size: 2.5em;
 	font-weight: 400;
 	padding-top: 30px;
 }
+#skills {
+	background: #FFF0A5;
+	color: #1E1E1E;
+	min-height: 100%;
+}
+
 .skillset {
 	font-size: 5em;
 	max-width: 65%;;
@@ -127,7 +127,7 @@ section.skills{
 	transition: 1s ease;
 }
 
-section.portfolio{
+#portfolio{
 	background: #B64926;
 	color: #1E1E1E;
 	/*font-family: 'Reem Kufi', sans-serif !important;*/
@@ -156,4 +156,12 @@ section.portfolio{
 
 @keyframes come-in {
   to { transform: translateY(0); }
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0);
+}
+
+.card-deck img {
+
 }

@@ -5,21 +5,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Christian Jess Mark | Awesome Dev</title>
+	<title>Christian Jess Mark</title>
 
 	<link rel="icon" href="assets/favicon.ico" type="image/png" />
 
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="css/hover.css" rel="stylesheet" media="all">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg sticky-top navbar-light">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light">
 	  <a class="navbar-brand" href="/">
 	  	<img src="assets/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt=""">
 	  </a>
@@ -49,14 +49,10 @@
 			<a target="_blank" href="https://twitter.com/sepruda"><i class="fab fa-twitter"></i></a>
 			<a target="_blank" href="https://stackoverflow.com/story/sepruda"><i class="fab fa-stack-overflow"></i></a>
 			<a target="_blank" href="https://www.linkedin.com/in/christianjessmark"><i class="fab fa-linkedin"></i></a>
-<!-- 			<a target="_blank" href="https://medium.com/@christianjessmark"><i class="fab fa-medium"></i></a>
-			<a target="_blank" href="https://www.freecodecamp.org/sepruda"><i class="fab fa-free-code-camp"></i></a>
-			
-			<a target="_blank" href="https://codepen.io/sepruda"><i class="fab fa-codepen"></i></a> -->
-    </div>
+
 	</main>
-	<section class="skills text-center">
-		<div id="skills">Skills</div>
+	<section id="skills">
+		<div class="section-head text-center">Skills</div>
 			<div class="skillset container">
 			    <img class="logo html col-md-2" src="assets/HTML5CSS3Logos.svg" alt="HTML5 & CSS3" title="HTML5 & CSS3">
 			    <img class="logo" src="assets/javascript.png" alt="Javascript" title="Javascript">
@@ -72,15 +68,15 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio text-center">	
-		<div id="portfolio">Portfolio</div>
-		<div class="container">
+	<section id="portfolio">	
+		<div class="section-head text-center">Portfolio</div>
+		<div class="container text-center">
 			<div class="card-deck">
 			  <div class="card module">
 			    <img class="card-img-top" src="assets/yelpcamp.png" alt="Yelpcamp">
 			    <div class="card-body">
 			      <h5 class="card-title">YelpCamp</h5>
-			      <p class="card-text">Yelp for campgrounds. Fullstack app with user authorization and authentication. Build using MongoDB, Express, NodeJS and Bootstrap as part of a Web developer bootcamp.</p>
+			      <p class="card-text">Fullstack app with user auth. Build using MongoDB, Express, NodeJS and Bootstrap using RESTful routing as part of a Web developer bootcamp.</p>
 					<a href="https://floating-beach-61214.herokuapp.com/" class="card-link">Demo</a>
 					<a href="https://github.com/sepruda/YelpCamp" class="card-link">Code</a>
 			    </div>
@@ -92,6 +88,46 @@
 			      <p class="card-text">Simple to-do list build with jQuery.</p>
 			      	<a href="http://christianjessmark.dk/todolist/" class="card-link">Demo</a>
 					<a href="https://github.com/sepruda/todolistproject" class="card-link">Code</a>
+			    </div>
+			  </div>
+			</div>
+			<div class="card-deck">
+			  <div class="card module">
+			    <img class="card-img-top" src="assets/patatap.jpg" alt="Patatap">
+			    <div class="card-body">
+			      <h5 class="card-title">Patatap clone</h5>
+			      <p class="card-text">Patatap clone build using Paper (vectors) and Howler (sounds) librarys. Press any key! </p>
+					<a href="http://christianjessmark.dk/patatap_clone/" class="card-link">Demo</a>
+					<a href="https://github.com/sepruda/patatap_clone" class="card-link">Code</a>
+			    </div>
+			  </div>
+			  <div class="card module">
+			    <img class="card-img-top" src="assets/twitchtv.png" alt="Twitch TV">
+			    <div class="card-body">
+			      <h5 class="card-title">Twitch TV</h5>
+			      <p class="card-text">Twith API showing who are online and what they are playing. Build with jQuery and Bootstrap.</p>
+			      	<a href="http://christianjessmark.dk/twitchtv_api/" class="card-link">Demo</a>
+					<a href="https://github.com/sepruda/Twitchtv-api" class="card-link">Code</a>
+			    </div>
+			  </div>
+			</div>
+			<div class="card-deck">
+			  <div class="card module">
+			    <img class="card-img-top" src="assets/wikipedia.png" alt="Wikipedia Viewer">
+			    <div class="card-body">
+			      <h5 class="card-title">Wikipedia Viewer</h5>
+			      <p class="card-text">Wikipedia viewer using Wikipedia API to display search results</p>
+					<a href="http://christianjessmark.dk/wikipedia_viewer/" class="card-link">Demo</a>
+					<a href="https://github.com/sepruda/wikipedia-viewer" class="card-link">Code</a>
+			    </div>
+			  </div>
+			  <div class="card module">
+			    <img class="card-img-top" src="assets/calculator.png" alt="JS Calculator">
+			    <div class="card-body">
+			      <h5 class="card-title">JS Calculator</h5>
+			      <p class="card-text">Simple calculator made in vanilla JS</p>
+			      	<a href="http://christianjessmark.dk/calculator/" class="card-link">Demo</a>
+					<a href="https://github.com/sepruda/Calculator" class="card-link">Code</a>
 			    </div>
 			  </div>
 			</div>
