@@ -162,6 +162,11 @@ main > .tagline {
     background-color: rgba(0,0,0,0);
 }
 
-.card-deck img {
+#contact {
+	background-color: #2E0927;
+	color: #F0F2EF;
+}
 
+form {
+		padding-bottom: 220px;
 }
